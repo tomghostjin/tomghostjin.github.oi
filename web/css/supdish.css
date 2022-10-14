@@ -1,0 +1,247 @@
+:root{
+    --main-color: rgb(3, 5, 75);
+    --sup-color: rgb(170, 7, 211);
+    --conten-color: rgb(243, 172, 243);
+}
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 140px;
+    margin-top:  -41px;
+    padding: 10px;
+}
+.top{
+    display: flex;
+    background-color: var(--sup-color);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+}
+.menu{
+ margin-top: 25px;
+}
+.menu>a{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 130px;
+    margin: 10px;
+    width: 100px;
+    text-decoration: none;
+}
+.menu>a:hover{
+    color: rgb(180, 241, 12);
+}
+.bigimage{
+    display: grid;
+    grid-template-columns: unset;
+    grid-auto-flow: column;
+    grid-auto-columns: 99%;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    grid-gap: 10px;
+    width: 100%;
+    height: 660px;
+}
+.image-item img{
+    width: 100%;
+    height: 639px;
+}
+.image-item{
+    border-radius: 10px;
+    height: 570px;
+    scroll-snap-align: center;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: var(--main-color);
+    position: relative;
+    top: 4200px;
+}
+.full{
+    display: flex;
+    width: 95%;
+    padding:5px;
+    margin: 15px;
+    color:azure;
+}
+.box1{
+    float: left;
+    margin-right: 100px;
+    margin-left: 80px;
+
+}
+h6{
+    font-size:22px;
+}
+.box1 , .box2, .box3{
+    font-size: 20px;
+}
+.box2{
+    float: left;
+    margin-right:100px ;
+}
+.box3{
+    float: left;
+    margin: 0 auto;
+}
+.conten{
+    position: absolute;
+    top: 240px;
+    left: 15%;
+    background-color: rgba(212, 192, 230, 0.2);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.conten h1{
+    color: rgb(247, 237, 199);
+}
+.conten p{
+    color: rgba(209, 170, 170, 0.7);
+}
+.body{
+    width: 100%;
+    height: 4000px;
+    position: absolute;
+}
+.content{
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+    height: 600px;
+    overflow: auto;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(241, 233, 220, 0.6);
+}
+.full-cha{
+    display: flex;
+}
+.anh{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-areas: 
+    " h1 h1 h2 h3"
+    " h4 h5 h2 h3"
+    " h4 h5 h6 h6";
+    border: 5px solid rgba(245, 225, 187, 0.7);
+    height: 894px;
+}
+.anh .imga:first-child{
+    grid-area: h1;
+}
+.anh .imga:nth-child(2){
+    grid-area: h2;
+}
+.anh .imga:nth-child(3){
+    grid-area: h3;
+}
+.anh .imga:nth-child(4){
+    grid-area: h4;
+}
+.anh .imga:nth-child(5){
+    grid-area: h5;
+}
+.anh .imga:last-child{
+    grid-area: h6;
+}
+.full-anh{
+    margin: 15px;
+    margin-top: 50px;
+}
+.video{
+    margin: 10px;
+}
+.top3{
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    margin: 5px;
+}
+.top3 img{
+    width:445px;
+    height: 600px;
+    border-radius: 10px;
+}
+.ten-top3{
+    text-align: center;
+    color: rgb(149, 233, 149);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ten-top3 hr{
+    width: 24cm;
+    height: 8px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+.gioithieu{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top:30px;
+    margin-bottom: 100px;
+}
+.gioithieu img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.gioithieu .content{
+    width: 100px;
+    height: auto;
+}
+.gioithieu .for1{
+    width: 180px;
+    height: 200px;
+    margin: 10px;
+    padding: 35px;
+    color: rgba(231, 229, 225, 0.2);
+    background-color: rgba(231, 229, 225, 0.6);
+    border-radius: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.gioithieu .for1:hover{
+    background-color: rgb(240, 219, 185);
+    color: black;
+}
+.bao{
+    font-size: x-large;
+    font-weight: bold;
+    color: var(--main-color);
+    text-align: right;
+    margin-top: 100px;
+}
+.beautiful{
+    position: relative;
+    top: 3000px;
+    display: grid;
+    grid-template-areas: "h1 h2"
+    "h3 h4";
+}
+.beautiful img{
+    width: 674px;
+}
+.bao2{
+    position: relative;
+    top: 2950px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.beautiful5{
+    position: absolute;
+    top: 4950px;
+    width: 100%;
+}

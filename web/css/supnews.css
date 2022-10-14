@@ -1,0 +1,108 @@
+:root{
+    --main-color: rgb(3, 5, 75);
+    --sup-color: rgb(170, 7, 211);
+    --background-color: rgb(139, 255, 6);
+}
+body{
+    margin:0;
+    padding: 0;
+}
+.logo img{
+    width: 140px;
+    margin-top:-41px ;
+}
+.top{
+    display: flex;
+    background-color: var(--sup-color);
+    position: relative;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 20px;
+}
+.menu>a{
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 150px;
+    margin: 10px;
+    width: 100px;
+    text-decoration: none;
+}
+.menu>a:hover{
+    color: rgb(16, 107, 8);
+}
+.bottom1{
+    background-image: url(https://picjumbo.com/wp-content/uploads/fall-autumn-leaves-on-the-ground-free-photo-1080x720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    top: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.bottom1 .content{
+    position: absolute;
+    text-align: center;
+    color: rgb(0, 110, 255);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: var(--main-color);
+    align-items: center;
+    position: relative;
+    top: 550px;
+}
+.full{
+    float: left;
+    width: 95%;
+    padding: 5px;
+    margin: 15px;
+    color:azure;
+}
+.box1{
+    float: left;
+    margin-right: 100px;
+    margin-left: 80px;
+
+}
+h6{
+    font-size:22px;
+}
+.box1 , .box2, .box3{
+    font-size: 20px;
+}
+.box2{
+    float: left;
+    margin-right:100px ;
+}
+.box3{
+    float: left;
+    margin: 0 auto;
+}
+.body{
+    position: relative;
+    top: 590px;
+    margin: 20px;
+    width: 96%;
+    text-align: center;
+    height: 3750px;
+    line-height: 25px;
+    font-size: larger;
+}
+.body h1{
+    line-height: 45px;
+}
+.body h5{
+    font-size: 25px;
+}

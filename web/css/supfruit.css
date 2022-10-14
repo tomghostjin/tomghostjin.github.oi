@@ -1,0 +1,447 @@
+:root{
+    --main-color: rgba(3, 5, 75, 0);
+    --sup-color: rgb(170, 7, 211);
+    --background-color: rgb(139, 255, 6);
+}
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 140px;
+    margin-top:-41px ;
+}
+.top{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    background-color: var(--main-color);
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 25px;
+}
+.top:hover{
+    background-color: rgb(3, 5, 75);
+}
+.menu>a{
+    color: var(--sup-color);
+    font-size: 19px;
+    font-weight: bold;
+    padding-right: 150px;
+    margin: 0;
+    width: 0;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: chartreuse;
+}
+.bottom1{
+    width: 100%;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bottom1::before{
+    content: "";
+    background-image: url(https://picjumbo.com/wp-content/uploads/orange-lemon-kiwi-fruits-1080x720.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    width: 100%;
+    height: 640px;
+    position: absolute;
+    animation: inout 4s linear infinite;
+}
+@keyframes inout {
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
+.bottom1 .content{
+    position: relative;
+    color: rgb(214, 80, 46);
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(3, 5, 75);
+    align-items: center;
+    position: relative;
+}
+.full{
+    float: left;
+    width: 95%;
+    padding: 5px;
+    margin: 15px;
+    color:azure;
+}
+.box1{
+    float: left;
+    margin-right: 100px;
+    margin-left: 80px;
+
+}
+h6{
+    font-size:22px;
+}
+.box1 , .box2, .box3{
+    font-size: 20px;
+}
+.box2{
+    float: left;
+    margin-right:100px ;
+}
+.box3{
+    float: left;
+    margin: 0 auto;
+}
+.body{
+}
+.top_body{
+    width: calc(100%-10px);
+    height: 2630px;
+    padding: 10px;
+    overflow: hidden;
+}
+.left_top_body{
+    width: inherit;
+    height: 1200px;
+}
+.left_top_item{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+.left_top_item1{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+.left_item{
+    background-image: linear-gradient(-45deg, rgb(247, 65, 65), rgb(250, 250, 74), rgb(101, 252, 71));
+    width:65%;
+    height: 500px;
+    overflow: auto;
+}
+.left_item1{
+    background-image: linear-gradient(-45deg, rgb(248, 60, 192), rgb(64, 165, 248) 1%, rgb(149, 231, 56));
+    width: 65%;
+    height:550px;
+    overflow: auto;
+}
+.ten{
+    font-size: 19px;
+    font-weight:bold;
+    color: rgb(211, 96, 96);
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 5px;
+    background-color: rgba(116, 247, 181, 0.5);
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+.nd{
+    margin: 5px;
+    font-weight: bold;
+}
+.pic img{
+    width: 430px;
+    height: 600px;
+}
+.pic1 img{
+    position: relative;
+    top: -100px;
+    width: 430px;
+    height: 650px;
+}
+.pic_top_body{
+    display: grid;
+    grid-template-columns:33.33% 33.33% 33.33%;
+    grid-template-rows: 230px 230px 230px 230px;
+    grid-template-areas:
+    "h1 h2 h3"
+    "h1 h4 h3"
+    "h5 h4 h6"
+    "h7 h8 h8";
+    grid-gap: 10px 10px; 
+    margin-top: 50px;
+    margin-left: 18px;
+
+}
+.pic_top_body .item:first-child{
+    grid-area: h1;
+}
+.pic_top_body .item:nth-child(2){
+    grid-area: h2;
+}
+.pic_top_body .item:nth-child(3){
+    grid-area: h3;
+}
+.pic_top_body .item:nth-child(4){
+    grid-area: h4;
+}
+.pic_top_body .item:nth-child(5){
+    grid-area: h5;
+}
+.pic_top_body .item:nth-child(6){
+    grid-area: h6;
+}
+.pic_top_body .item:nth-child(7){
+    grid-area: h7;
+}
+.pic_top_body .item:last-child{
+    grid-area: h8;
+}
+.item img{
+    object-fit: cover;
+    border-radius: 20px;
+}
+.pic_center_body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    margin-top:50px;
+    overflow: hidden;
+}
+.pic_center_body{
+    background-color: blue;
+    width: 100%;
+    height: 600px;
+}
+.center_body hr{
+    width: 1000px;
+    height: 2px;
+    background-image: linear-gradient(red, green, yellow);
+}
+.center_body{
+    width: 100%;
+    height: 870px;
+}
+.pic_center_body .pic img{
+    object-fit: cover;
+}
+.content__center{
+    background-color: rgba(126, 236, 203, 0.3);
+    width: 65%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(89, 89, 240);
+    float: right;
+    font-size: large;
+    font-weight:bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bottom_body{
+    background-image: url(https://cdn.pixabay.com/photo/2014/12/02/22/05/snowflakes-554635__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 98.5%;
+    height:1140px;
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+}
+.content_bottom_body{
+    background-image: radial-gradient(rgba(15, 12, 12, 0.7), rgba(4, 4, 87, 0.5), rgba(6, 46, 6, 0.1));
+    text-transform: uppercase;
+    height:25px;
+    padding: 10px;
+    margin:10px;
+    font-size: x-large;
+    font-weight:bold;
+    color: aliceblue;
+    font-family:monospace;
+    text-align: center;
+    overflow: hidden;
+}
+.pic_bottom_body img{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.end{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/19/21/36/woman-1919143__340.jpg);
+}
+.end_bottom_body{
+    width: 60%;
+    height: 590px;
+    background-image: linear-gradient(45deg, rgba(111, 243, 111, 0.3), rgba(128, 241, 222, 0.4), rgba(248, 120, 237,0.3));
+    margin: 20px;
+    padding: 20px;
+    border-radius: 40px ;
+    border: 2px solid rgb(42, 42, 163);
+    line-height: 150%;
+    font-size: large;
+    font-weight:bold;
+    color: rgb(128, 5, 26);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+.anima{
+    width: 100%;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 200px;
+
+}
+.ngoai{
+    width: 190px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 5px solid red;
+    border-bottom-color: transparent;
+    border-top-color:  transparent;
+    animation: color 1s linear infinite, spiner 1s linear infinite;
+
+}
+.giua{
+    width: 140px;
+    height: 140px;
+    z-index: 56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 5px solid red;
+    border-left-color: transparent;
+    border-right-color:  transparent;
+    animation: color 4s linear infinite, spiner2 8s linear infinite;
+}
+.trong{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid red;
+    border-bottom-color: transparent;
+    border-top-color:  transparent;
+    animation: color 5.5s linear infinite, spiner3 2s linear infinite;
+}
+@keyframes color {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+@keyframes spiner {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes spiner2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(760deg);
+    }
+}
+@keyframes spiner3 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.trai{
+    width: 550px;
+    height:10px;
+    
+    padding: 10px;
+    margin:10px;
+    border-radius: 100px;
+    border-bottom: 1px solid wheat;
+}
+.tron{
+    width: 20px;
+    height:20px;
+    margin: -5px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: relative;
+    left: 0px;
+    animation: vitri 6s infinite ;
+}
+@keyframes vitri {
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 520px;
+    }
+}
+.trai2{
+    width: 550px;
+    height:10px;
+    padding: 10px;
+    margin:10px;
+    border-radius: 100px;
+    border-bottom: 1px solid wheat;
+}
+.tron2{
+    width: 20px;
+    height:20px;
+    margin: -5px;
+    background-color: rgb(240, 78, 218);
+    border-radius: 50%;
+    position: relative;
+    left: 520px;
+    animation: vitri2 6s infinite ;
+}
+@keyframes vitri2 {
+    0%{
+        left: 520px;
+    }
+    50%{
+        left: 0px;
+    }
+}

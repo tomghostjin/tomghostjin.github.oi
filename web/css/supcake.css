@@ -1,0 +1,240 @@
+:root{
+    --main-color: rgb(3, 5, 75);
+    --sup-color: rgb(170, 7, 211);
+    --conten-color: rgb(236, 161, 236);
+}
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 140px;
+    margin-top:  -41px;
+    padding: 10px;
+}
+.top{
+    display: flex;
+    background-color: var(--sup-color);
+    height: 80px;
+}
+.menu{
+ margin-top: 25px;
+}
+.menu>a{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 130px;
+    margin: 10px;
+    width: 100px;
+    text-decoration: none;
+}
+.menu>a:hover{
+    color: rgb(180, 241, 12);
+}
+.bottom1{
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/05/05/57/cake-1954054__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    display: flex;
+}
+.bottom1 .content1{
+    width: 50%;
+    position: absolute;
+    left: 1px;
+    color:var(--conten-color);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.chude{
+    width: 300px;
+    margin: 20px;
+    height: auto;
+    position: absolute;
+    right: 1px;
+    background-color: rgba(253, 228, 196, 0.5);
+    font-size:x-large;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: var(--main-color);
+    position: relative;
+    top: 3550px;
+}
+.full{
+    display: flex;
+    width: 95%;
+    padding:5px;
+    margin: 15px;
+    color:azure;
+}
+.box1{
+    float: left;
+    margin-right: 100px;
+    margin-left: 80px;
+
+}
+h6{
+    font-size:22px;
+}
+.box1 , .box2, .box3{
+    font-size: 20px;
+}
+.box2{
+    float: left;
+    margin-right:100px ;
+}
+.box3{
+    float: left;
+    margin: 0 auto;
+}
+.body{
+    width: 100%;
+    height: 200em;
+    position: absolute;
+}
+.sanpham img{
+    margin: 18px;
+    width: 298px;
+    height: 300px;
+}
+.content{
+    background-color: white;
+    font-size: 1.58824em;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 17px;
+    font-weight: 700;
+}
+.qc1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.qc1 .pic{
+    margin:125px;
+}
+.qc1 .nd{
+    width: 30rem;
+    margin-top:125px;
+    padding: 20px;
+}
+.qc1 .nd h2{
+    font-size: .88235em;
+    font-family: Futura,sans-serif;
+    letter-spacing: .025em;
+    line-height: 1.6;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-bottom: 5px;
+}
+.qc1 .nd h1{
+    padding: 10px;
+    font-size: 30px;
+}
+.qc1 p{
+    font-size: larger;
+    font-family: Futura,sans-serif;
+    letter-spacing: .025em;
+    line-height: 1.6;
+    padding: 20px;
+}
+.treat-time{
+    margin-top: 100px;
+}
+.tasty{
+    margin-top: 100px;
+}
+.sanphamdb1 img{
+    margin: 17px;
+}
+.qc2 .pic{
+    content: "";
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXQPwzeR1uO7GKOgBRVmspSUZJKzsQpUE1_A&usqp=CAU);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 50%;
+    height: 330px;
+    margin-top: 30px;
+    position: relative;
+}
+.qc2 .nd{
+    position: relative;
+    top: -240px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 36px;
+    margin-left: 30px;
+}
+.full{
+    display: flex;
+}
+.full .bigimage{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/23/14/37/baked-goods-1853261__340.jpg);
+    width: 640px;
+    height: 640px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.threeimage .top9{
+    display: flex;
+}
+.top9 .left{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/08/08/57/cake-2610754__340.jpg);
+    width: 340px;
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.top9 .right{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/27/03/25/cake-2685101__340.jpg);
+    width: 340px;
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.bottom-shop{
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/17/11/59/food-2151361__340.jpg);
+    width: 700px;
+    height: 285px;
+    margin: 10px;
+    position: relative;
+    top: -120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 125px;
+}
+.end{
+    width: 800px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    font-size: larger;
+    height: 500px;
+}
+.shop-by{
+    position: relative;
+    margin-top: -150px;
+}

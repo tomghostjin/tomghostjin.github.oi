@@ -1,0 +1,160 @@
+:root{
+    --main-color: rgb(3, 5, 75);
+    --sup-color: rgb(170, 7, 211);
+    --conten-color: rgb(243, 172, 243);
+}
+.logo img{
+    width: 140px;
+    margin-top:  -41px;
+    padding: 10px;
+}
+.top{
+    display: flex;
+    background-color: var(--sup-color);
+    height: 80px;
+}
+.menu{
+ margin-top: 25px;
+}
+.menu>a{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 130px;
+    margin: 10px;
+    width: 100px;
+    text-decoration: none;
+}
+.menu>a:hover{
+    color: rgb(180, 241, 12);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+.col-6{
+    float: left;
+    width: 50%;
+}
+.margin_b{
+    margin-bottom: 7.5px;
+}
+.clear{
+    clear: both;
+}
+main{
+    background-color: #dddddd;
+    min-height: 300px;
+    padding: 10px 20px;
+    display: flex;
+}
+h1{
+    color: #009999;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.register-form{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dashed #f5b8b8;
+    border-radius: 10px;
+}
+.input-box{
+    margin-bottom: 10px;
+}
+.input-box input[type='text'],
+.input-box input[type='tel'],
+.input-box input[type='date'],
+.input-box input[type='email']{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    height: 40px;
+    color: #666666;
+}
+.input-box select{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    height: 40px;
+    color: #666666;
+}
+.input-box option{
+    font-size: 16px;
+}
+.input-box textarea{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 2px solid #cccccc;
+    outline: none;
+    font-size: 16px;
+    min-height: 120px;
+    color: #666666;
+}
+.btn-box{
+    text-align: right;
+    margin-top: 30px;
+}
+.btn-box button{
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #009999;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: var(--main-color);
+    position: relative;
+    top: -20px;
+    line-height: 30px;
+}
+.full{
+    display: flex;
+    width: 95%;
+    padding:50px;
+    margin: 15px;
+    color:azure;
+
+}
+.box1{
+    float: left;
+    margin-right: 100px;
+    margin-left: 80px;
+
+}
+h6{
+    font-size:22px;
+}
+.box1 , .box2, .box3{
+    font-size: 20px;
+}
+.box2{
+    float: left;
+    margin-right:100px ;
+}
+.box3{
+    float: left;
+    margin: 0 auto;
+}
+.map{
+    width: 600px;
+    height: 500px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/supfeedback.css">
+</head>
+<body>
+        <header>
+            <div class="top">
+                <div class="logo">
+                    <img src="picture/logome.png">
+                </div>
+                <div class="menu">
+                    <a href="index.html">HOME PAGE</a>
+                    <a href="news.html">NEWS</a>
+                    <a href="eating.html">EATING</a>
+                    <a href="faq.html">FAQ </a>
+                    <a href="feedback.html">
+                        CONTACT</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="register-form">
+                    <form>
+                        <h1>
+                            Nhập thông tin liên hệ</h1>
+                        <div class="input-box">
+
+                            <input type="text" placeholder="Nhập username" required>
+                        </div>
+                        <div class="input-box">
+
+                            <input type="email" placeholder="ngocson_jp@yahoo.co.jp" required pattern="^[a-z][a-z0-9_\.]{5,32}@[a-z0-9]{2,}(\.[a-z0-9]{2,4}){1,2}$">
+                        </div>
+                        <div class="input-box">
+
+                            <input type="tel" placeholder="Nhập sđt" required pattern="[0-9]{10}">
+                        </div>
+                        <div class="input-box">
+                            <div class="col-6">
+                                <label for="gioitinh">Giới tính</label>
+                                <br>
+                                <select id="gioitinh">
+                                    <option value="nam">Nam</option>
+                                    <option value="nu">Nữ</option>
+                                </select>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for="gioithieu">Nội dung</label>
+                            <br>
+                            <textarea id="gioithieu" required></textarea>
+                        </div>
+                        
+                        <div class="btn-box">
+                            <button type="submit">
+                               Gửi
+                            </button>
+                            <button type="reset">
+                                Trở lại
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1g3kmDtBkkDVYOV0xk488qa7xiV3tjK8&ehbc=2E312F"class="map"></iframe>
+        </main>
+        <footer>
+            <span class="full">
+                <div class="box1">
+                <h6>INFORMATION</h6>
+                <p>
+                    Giới thiệu<br>Tin tức<br>Liên hệ<br>Các dịch vụ đơn vị chủ quản website cung cấp
+                    <br>Địa chỉ email
+                </p>
+                </div>
+                <div class="box2">
+                    <h6>CONTACT</h6>
+                    <p>Giá rẻ<br>Cao cấp<br>Địa chỉ liên hệ<br>Bản đồ đường đi<br>Link liên kết đến những trang mạng xã hội</p>
+                </div>
+                <div class="box3">
+                <h6>ABOUT</h6>
+                Facebook<br>Twitter<br>Youtube<br>Telegram
+                </div>
+            </span>
+        </footer>
+</body>
+</html>
